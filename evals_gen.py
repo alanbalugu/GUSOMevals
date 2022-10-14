@@ -22,7 +22,7 @@ def main():
     driver.get("https://www.new-innov.com/login/sso/whc")
     time.sleep(2)
 
-    uname = "abc123".  #***
+    uname = "net-id".  #***
     pword = "net-id-password"   #***
 
     unameArea = driver.find_element("id", "username")
@@ -48,7 +48,7 @@ def main():
     time.sleep(2)
 
     typePass = driver.find_element("name","passcode")
-    typePass.send_keys("#########") #***
+    typePass.send_keys("last-9-digits") #***
 
     loginDuo = driver.find_element("id","passcode")
     action.move_to_element(loginDuo).perform()
