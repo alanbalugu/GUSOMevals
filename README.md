@@ -3,8 +3,8 @@
 
 INSTRUCTIONS
 
-**USE AT YOUR OWN RISK....IT MAY NOT WORK AND IT MIGHT MESS THINGS UP.
-**ALSO on a MAC, you have to run chromedriver once before running any script so that it isn't blocked by the security. Like double-click the chromedriver executable.
+## USE AT YOUR OWN RISK....IT MAY NOT WORK AND IT MIGHT MESS THINGS UP.
+## ALSO on a MAC, you have to run chromedriver once before running any script so that it isn't blocked by the security. Like double-click the chromedriver executable.
 
 1. Install Python
 2. Install Google Chrome if you don't already have it
