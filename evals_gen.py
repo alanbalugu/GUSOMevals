@@ -36,8 +36,9 @@ def main():
     login = driver.find_element("name", "_eventId_proceed")
     action.move_to_element(login).perform()
     login.click()
-    time.sleep(2)
+    time.sleep(20)
 
+    '''
     action = ActionChains(driver)
 
     driver.switch_to.frame(driver.find_element("id","duo_iframe"))
@@ -54,6 +55,7 @@ def main():
     action.move_to_element(loginDuo).perform()
     loginDuo.click()
     time.sleep(10)
+    '''
 
     driver.get("https://www.new-innov.com/EvaluationForms/EvaluationFormsHost.aspx?Control=CompleteEvals")
     time.sleep(7)
