@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,15 +9,13 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support import expected_conditions as EC
-
-from datetime import datetime
-
-import json
-import re
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
 
 def main():
 
-    driver = webdriver.Chrome('---location of chromedriver---').  #***
+    #driver = webdriver.Chrome('---location of chromedriver---').
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
     driver.get("https://www.new-innov.com/login/sso/whc")
     time.sleep(2)
 
