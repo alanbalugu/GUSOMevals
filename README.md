@@ -8,13 +8,18 @@ INSTRUCTIONS
 
 1. Install Python
 2. Install Google Chrome if you don't already have it
-2. Check version of chrome and download the correct “chromedriver” version. Check Chrome version by going to chrome settings then "About Chrome" at the bottom of the left side menu. Chromdriver download: (https://chromedriver.chromium.org/downloads). 
-4. Install the “selenium” python module using either pip or conda, based on your python install
-(ex. pip install -U selenium). Also install "webdriver manager" python module (ex. pip install webdriver-manager)
-(might need to install Pip package manager first if you don't have it already)
+3. Check version of chrome and download the correct “chromedriver” version.
+   * Check Chrome version by going to chrome settings then "About Chrome" at the bottom of the left side menu.
+   * Chromdriver download: (https://chromedriver.chromium.org/downloads). 
+4. Install the “selenium” python module using either pip or conda, based on your python install. Also install "webdriver manager" python module
+   * (ex. pip install -U selenium).
+   * (ex. pip install webdriver-manager)
+* ### (might need to install Pip package manager first if you don't have it already)
 5. Edit the script with the following (search for “ *** ” to find these lines):
-	~~* Filepath / location of chromedriver on your computer~~
+	* ~~Filepath / location of chromedriver on your computer~~
 	* Your netID and password
-	~~* (Not necessary anymore) The last 9 digits of the long id number on the back of your gocard~~
+	* ~~(Not necessary anymore) The last 9 digits of the long id number on the back of your gocard~~
 6. Run the python script and just let it do its thing for a while.
 7. When the 2FA screen shows up, approve the notification on your phone and then click "trust browser" in the chrome window. The script will give you 20 second to do this before it dies, so approve the 2FA and click "trust" quickly. The script will then continue to finish the evals.
+
+* ##email/text me if you need help: agb76@georgetown.edu
