@@ -13,8 +13,8 @@ INSTRUCTIONS
 (ex. pip install -U selenium). Also install "webdriver manager" python module (ex. pip install webdriver-manager)
 (might need to install Pip package manager first if you don't have it already)
 5. Edit the script with the following (search for “ *** ” to find these lines):
-	~~1. Filepath / location of chromedriver on your computer~~
-	2. Your netID and password
-	~~3. (Not necessary anymore) The last 9 digits of the long id number on the back of your gocard~~
+	~~* Filepath / location of chromedriver on your computer~~
+	* Your netID and password
+	~~* (Not necessary anymore) The last 9 digits of the long id number on the back of your gocard~~
 6. Run the python script and just let it do its thing for a while.
 7. When the 2FA screen shows up, approve the notification on your phone and then click "trust browser" in the chrome window. The script will give you 20 second to do this before it dies, so approve the 2FA and click "trust" quickly. The script will then continue to finish the evals.
